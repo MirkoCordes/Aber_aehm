@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/colorError">
+
+    <TextView
+        android:id="@+id/wurdeErkannt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Das Wort wurde erkannt!"
+        android:textColor="?attr/colorOnError"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/startAgainImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beerImageView"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <ImageView
+        android:id="@+id/beerImageView"
+        android:layout_width="192dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TrinkeEinenSchluck"
+        app:layout_constraintVertical_bias="0.148"
+        app:srcCompat="@drawable/ic_baseline_sports_bar_24" />
+
+    <TextView
+        android:id="@+id/TrinkeEinenSchluck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Trinke einen Schluck"
+        android:textColor="?attr/colorOnError"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/startAgainImageButton"
+        android:layout_width="74dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/wurdeErkannt"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/wurdeErkannt"
+        app:layout_constraintTop_toBottomOf="@+id/beerImageView"
+        app:layout_constraintVertical_bias="0.829"
+        app:srcCompat="@drawable/ic_baseline_play_arrow_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
