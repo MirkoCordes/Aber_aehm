@@ -1,14 +1,16 @@
 # Firefly
-<img src="Gallery/Funktionsgrafik.png"/>
- Dieses Projekt wurde mit Unity und C# erstellt und auf den Plattformen Ios, Android und Windows veröffentlicht.
+<img src="Gallery/Vostellung.png"/>
+ Dieses Projekt wurde mit Android Studio und Java erstellt und auf Android veröffentlicht.
 
- In "Firefly" steuerst du ein Glühwürmchen, das am längsten überleben muss.
-Dabei triffst du auf Hornissenschwärme, Regen, Hände und Fliegenklatschen, die den Glühwurm töten wollen.
-Mehr Informationen findest du auf <a href="http://www.firefly.gratis" >www.firefly.gratis</a>.
+ Anleitung:
+Im ersten Schritt geben Sie das Wort ein, welches nicht gesagt werden soll.
+Danach wird das Mikrofon über die Schaltfläche "START LISTENING" aktiviert. Es hört die gesagten Wörter und prüft, ob das verbotene Wort enthalten ist.
+Sobald Sie das abgespeicherte Wort gesagt haben, müssen Sie einen Schluck eines beliebigen Getränks nehmen.
+<br/><br/>
+Achtung: Diese App weißt auf Alkoholkonsum hin und ist erst ab 18 Jahren verfügbar. Jeder ist für den Alkoholkonsum selbst verantwortlich.
+<hr/>
 <h2>Download & Install</h2>
-Sie können die Installationsdatei für Windows, so wie die Apk für Android aus dem <b><a href="Installs/">Installs</a></b> Ordner runterladen.
-Des weiteren können sie die Anwendung auch einfach <b><a href="http://www.firefly.gratis/download.html#download">hier</a></b> herunterladen.
+Sie können die die Anwendung einfach <b><a href="https://play.google.com/store/apps/details?id=com.mirkocordes.aberhm_dastrinkspiel">hier</a></b> herunterladen.
 <hr />
 <h2>Bilder</h2>
-Auch stehen ihnen Voschaubilder, so wie ein Demovideo zur Verfügung. Diese finden sie im Ordner <b><a href="Gallery/">Gallery</a></b>.
-<img src="Gallery/Screenshots5.png"/>
+Auch stehen ihnen Voschaubilder zur Verfügung. Diese finden sie im Ordner <b><a href="Gallery/">Gallery</a></b>.
